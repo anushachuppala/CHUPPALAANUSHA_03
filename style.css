@@ -74,7 +74,7 @@ html {
 
 /* add-task section */
 .add-task-section {
-  width: 1000px;
+  width: 1050px;
   height: 70px;
   margin-top: 20px;
   border: 1px solid var(--border-white);
@@ -85,8 +85,11 @@ html {
 #taskInput {
   width: 900px;
   height: 40px;
-  padding-left: 0 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  padding-left: 10px;
   border-radius: 3px;
+  padding-left: 17px;
   box-sizing: border-box;
   line-height: 40px;
 }
@@ -99,10 +102,11 @@ html {
 }
 
 #addTaskBtn {
-  width: 80px;
+  width: 120px;
   height: 50px;
   border-radius: 5px;
   margin-top: 10px;
+  margin-left: 6px;
   background: var(--black);
   color: var(--white);
 }

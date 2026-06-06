@@ -21,14 +21,20 @@ html {
   --border-white: rgb(221, 221, 221);
 }
 
+/* app section */
 .app-container {
-  width: 1070px;
+  width: 1097px;
   margin: 30px auto;
   border: 1px solid var(--border-white);
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
   padding: 20px;
   background-color: var(--white);
+}
+
+.nav-container {
+  position: relative;
+  text-align: center;
 }
 
 .project-title {
@@ -47,4 +53,56 @@ html {
   font-weight: 300;
   color: var(--text-color);
   margin-top: 0.1rem;
+}
+
+.date-time-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  gap: 8px;
+  margin-top: px;
+}
+
+.date-time {
+  font-size: 0.5rem;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
+/* add-task section */
+.add-task-section {
+  width: 1000px;
+  height: 70px;
+  margin-top: 20px;
+  border: 1px solid var(--border-white);
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+#taskInput {
+  width: 900px;
+  height: 40px;
+  padding-left: 0 20px;
+  border-radius: 3px;
+  box-sizing: border-box;
+  line-height: 40px;
+}
+
+#taskInput::placeholder {
+  color: var(--text-color);
+  font-size: 0.5rem;
+  font-weight: 300;
+  align-content: center;
+}
+
+#addTaskBtn {
+  width: 80px;
+  height: 50px;
+  border-radius: 5px;
+  margin-top: 10px;
+  background: var(--black);
+  color: var(--white);
 }

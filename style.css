@@ -11,8 +11,40 @@ html {
   font-size: 24px;
   font-weight: 600;
 }
+
 :root {
   --white: rgb(254, 254, 254);
   --black: rgb(24, 25, 29);
   --light-ash: rgb(236, 237, 240);
+  --dark-ash: rgba(132, 125, 125, 0.541);
+  --text-color: rgba(0, 0, 0, 0.502);
+  --border-white: rgb(221, 221, 221);
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 30px auto;
+  border: 1px solid var(--border-white);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  background-color: var(--white);
+}
+
+.project-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 200px;
+  font-size: 300;
+}
+
+.subtitle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: var(--text-color);
+  margin-top: 0.1rem;
 }

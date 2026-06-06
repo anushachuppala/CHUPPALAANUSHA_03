@@ -22,7 +22,7 @@ html {
 }
 
 .app-container {
-  max-width: 800px;
+  width: 1070px;
   margin: 30px auto;
   border: 1px solid var(--border-white);
   border-radius: 12px;

@@ -88,6 +88,7 @@ html {
   margin-top: 10px;
   margin-left: 10px;
   padding-left: 10px;
+  border: 1px solid var(--border-white);
   border-radius: 3px;
   padding-left: 17px;
   box-sizing: border-box;
@@ -140,6 +141,7 @@ html {
   height: 35px;
   background-color: var(--border-white);
 }
+
 /* task section */
 .tasks-section {
   display: flex;
@@ -152,4 +154,21 @@ html {
   border: 1px solid var(--border-white);
   border-radius: 20px;
   padding: 20px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.section-title i {
+  font-size: 0.8rem;
+}
+
+.section-title h2 {
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  gap: 5px;
 }

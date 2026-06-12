@@ -358,21 +358,3 @@ html {
 .completed-task-list .task-info input[type="checkbox"] {
   accent-color: var(--black);
 }
-
-/* Footer */
-
-.footer-message {
-  text-align: center;
-  margin-top: 38px;
-  font-size: 0.65rem;
-  font-weight: 300;
-  color: var(--text-color);
-}
-
-.footer-message i {
-  margin-left: 8px;
-}
-
-.hidden {
-  display: none;
-}

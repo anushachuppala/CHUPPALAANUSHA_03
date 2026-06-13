@@ -358,3 +358,173 @@ html {
 .completed-task-list .task-info input[type="checkbox"] {
   accent-color: var(--black);
 }
+
+/* ==========================================
+   MOBILE (320px - 480px)
+========================================== */
+@media screen and (max-width: 480px) {
+  html {
+    font-size: 16px;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .app-container {
+    width: 95%;
+    height: auto;
+    padding: 15px;
+    margin: 15px auto;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .date-time-container {
+    position: static;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .add-task-section {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  #taskInput {
+    width: 100%;
+    margin: 0;
+  }
+
+  #addTaskBtn {
+    width: 100%;
+    margin: 0;
+  }
+
+  .stats-section {
+    flex-direction: column;
+    gap: 20px;
+    margin: 25px 0;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .tasks-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .divider1,
+  .divider2 {
+    width: 100%;
+  }
+
+  .task-card {
+    height: auto;
+    padding: 15px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+  }
+
+  .task-info {
+    width: 100%;
+  }
+
+  .task-actions {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .edit-btn,
+  .delete-btn {
+    flex: 1;
+  }
+}
+
+/* ==========================================
+   TABLET (481px - 768px)
+========================================== */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .app-container {
+    width: 95%;
+    height: auto;
+  }
+
+  .date-time-container {
+    position: static;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .add-task-section {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  #taskInput {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .tasks-section {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .divider1,
+  .divider2 {
+    width: 100%;
+  }
+
+  .stats-section {
+    gap: 50px;
+  }
+
+  .task-card {
+    height: auto;
+  }
+}
+
+/* ==========================================
+   SMALL LAPTOP (769px - 1024px)
+========================================== */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .app-container {
+    width: 95%;
+    height: auto;
+  }
+
+  .add-task-section {
+    width: 100%;
+  }
+
+  #taskInput {
+    width: calc(100% - 145px);
+  }
+
+  .divider1,
+  .divider2 {
+    width: 100%;
+  }
+
+  .stats-section {
+    gap: 80px;
+  }
+
+  .tasks-section {
+    height: auto;
+  }
+}

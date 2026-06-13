@@ -359,9 +359,7 @@ html {
   accent-color: var(--black);
 }
 
-/* ==========================================
-   MOBILE (320px - 480px)
-========================================== */
+/*MOBILE (320px - 480px)*/
 @media screen and (max-width: 480px) {
   html {
     font-size: 16px;
@@ -452,9 +450,7 @@ html {
   }
 }
 
-/* ==========================================
-   TABLET (481px - 768px)
-========================================== */
+/* TABLET (481px - 768px)*/
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .app-container {
     width: 95%;
@@ -498,9 +494,7 @@ html {
   }
 }
 
-/* ==========================================
-   SMALL LAPTOP (769px - 1024px)
-========================================== */
+/* SMALL LAPTOP (769px - 1024px)*/
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .app-container {
     width: 95%;

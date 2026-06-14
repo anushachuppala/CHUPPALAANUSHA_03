@@ -28,7 +28,14 @@ function addTask(taskName) {
 
       <div>
         <h3>${taskName}</h3>
-        <p>${new Date().toLocaleString()}</p>
+        <p>${new Date().toLocaleString("en-GB", {
+          day: "numeric",
+          month: "long",
+          year: "numeric",
+          hour: "numeric",
+          minute: "2-digit",
+          hour12: true,
+        })}</p>
       </div>
     </div>
 

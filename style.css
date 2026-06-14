@@ -56,6 +56,23 @@ html {
   margin-top: 0.1rem;
 }
 
+.date-time-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.date-time {
+  font-size: 0.5rem;
+  font-weight: 300;
+  color: var(--text-color);
+}
+
 /* add-task section */
 .add-task-section {
   width: 1050px;
